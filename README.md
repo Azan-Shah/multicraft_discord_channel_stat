@@ -11,6 +11,10 @@ npm install multicraft
 npm install round-to
 ```
 
+IMPORTANT
+make sure to replace your node_modules\multicraft with node_modules\multicraft on this repo/zip that you downloaded as you can refer on this gif
+![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/replace.gif)
+
 HOW TO USE CONFIG.JSON:
 
 Create a file called "config.json" within your project folder. It will have this syntax:
