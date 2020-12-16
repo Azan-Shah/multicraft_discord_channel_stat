@@ -1,13 +1,14 @@
-# multicraft_discord_channel_stat
-discord bot for constant update of online players on your minecraft server using multicraft api and discord.js.
+# multicraft_discord_channel_status_updater
+discord bot for constant update of online players , status and resource consumption (cpu + ram usage) on your minecraft server using multicraft api and discord.js.
 
 SETUP:
 
-npm install both multicraft (https://www.npmjs.com/package/multicraft) and discord.js (https://discord.js.org/).
+npm install multicraft (https://www.npmjs.com/package/multicraft) , discord.js (https://discord.js.org/) and round-to (https://www.npmjs.com/package/round-to).
 
 ```
 npm install discord.js
 npm install multicraft
+npm install round-to
 ```
 
 HOW TO USE CONFIG.JSON:
@@ -19,6 +20,9 @@ Create a file called "config.json" within your project folder. It will have this
   "url": "multicraft url api call link here",
   "user": "multicraft user here",
   "key": "multicraft api key here",
-  "token": "bot token here"
+  "token": "discord bot token here"
+  "serverid": "multicraft server id here",
+  "status_voice_channel": "discord voice channel for status here",
+  "player_voice_channel": "discord voice channel for players here" 
 }
 ```
