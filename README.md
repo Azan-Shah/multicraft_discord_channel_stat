@@ -36,7 +36,9 @@ Create a file called "config.json" within your project folder. It will have this
 SNAPSHOT OF THIS BOT
 
 STATUS AND ONLINE PLAYERS LIST
+
 ![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%201.PNG)
+
 
 MINECRAFT SERVER CPU AND RAM USAGE
 
