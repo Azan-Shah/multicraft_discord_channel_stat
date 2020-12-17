@@ -1,7 +1,7 @@
 # multicraft_discord_channel_status_updater ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Azan-Shah/multicraft_discord_channel_stat)![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Azan-Shah/multicraft_discord_channel_stat/CodeQL)
 discord bot for constant update of online players , status and resource consumption (cpu + ram usage) on your minecraft server using multicraft api and discord.js.
 
-SETUP:
+# SETUP:
 
 npm install multicraft (https://www.npmjs.com/package/multicraft) , discord.js (https://discord.js.org/) and round-to (https://www.npmjs.com/package/round-to).
 
