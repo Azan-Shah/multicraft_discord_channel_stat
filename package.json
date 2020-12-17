@@ -1,0 +1,34 @@
+{
+  "name": "multicraft_discord_channel_stat",
+  "version": "1.0.1",
+  "description": "discord bot for constant update of online players , status and resource consumption (cpu + ram usage) on your minecraft server using multicraft api and discord.js.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azan-Shah/multicraft_discord_channel_stat.git"
+  },
+  "keywords": [
+    "discord",
+    "discordbot",
+    "discord.js",
+    "multicraft",
+    "minecraft",
+    "server",
+    "monitor",
+    "bot"
+  ],
+  "author": "Azan-Shah",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Azan-Shah/multicraft_discord_channel_stat/issues"
+  },
+  "homepage": "https://github.com/Azan-Shah/multicraft_discord_channel_stat#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "multicraft": "^1.0.17",
+    "round-to": "^5.0.0"
+  }
+}
