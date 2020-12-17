@@ -1,6 +1,6 @@
 {
   "name": "multicraft_discord_channel_stat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "discord bot for constant update of online players , status and resource consumption (cpu + ram usage) on your minecraft server using multicraft api and discord.js.",
   "main": "bot.js",
   "scripts": {
