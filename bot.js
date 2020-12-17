@@ -36,14 +36,14 @@ async function update() {
              var statustemplate = `Status: ${status}`; // current status of the server
              if  (channelname2 !== statustemplate)
              {
-                channel2.setName(statustemplate);    // update channel name to the latest 
+                channel_info1.setName(statustemplate);    // update channel name to the latest 
              };   
         if (player >= 1)  // check if players is more than 1
         {
             var nametemplate = `Online Players: ${player}/${maxplayer}`;  // current player of the server
             if  (channelname !== nametemplate)
             {
-                channel.setName(nametemplate);  // update channel name to the latest 
+                channel_info2.setName(nametemplate);  // update channel name to the latest 
             };
         }
         else if (player <= 0)  // check if players is less than 0
@@ -51,7 +51,7 @@ async function update() {
             var defaulttemplate = `Online Players: 0/${maxplayer}`;
             if  (channelname !== defaulttemplate)
             {
-                channel.setName(defaulttemplate);    // update channel name to the latest 
+                channel_info2.setName(defaulttemplate);    // update channel name to the latest 
             };
         };
         }
@@ -60,7 +60,7 @@ async function update() {
             var offlinetemplate = `Status: ${status}`;
             if  (channelname !== nametemplate)
             {
-                channel2.setName(offlinetemplate);   // update channel name to the latest 
+                channel_info1.setName(offlinetemplate);   // update channel name to the latest 
             };
         };
 
