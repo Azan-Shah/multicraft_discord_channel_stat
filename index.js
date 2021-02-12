@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const { resolve } = require('path');
-const config = require('./config.json');
+const config = require('./config.js');
 const roundTo = require('round-to');
 const client = new Discord.Client();
 const api = require("multicraft").begin({
@@ -13,8 +13,7 @@ async function usage() {
     const response = await api.getServerResources(config.serverid);
     const profile = JSON.parse(response);
     const cpu = profile.data.cpu;
-    var temp = Number(profile.data.memory);
-    const ram = roundTo(temp, 0);
+    const ram = parseFloat(profile.data.memory).toFixed(1).split('.').join("");
     client.user.setActivity(`CPU:${cpu}% RAM:${ram}0mb`, { type: "WATCHING"});
 }
 
