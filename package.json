@@ -28,7 +28,6 @@
   "homepage": "https://github.com/Azan-Shah/multicraft_discord_channel_stat#readme",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "multicraft": "^1.0.17",
-    "round-to": "^5.0.0"
+    "multicraft": "^1.0.17"
   }
 }
