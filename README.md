@@ -3,24 +3,16 @@ discord bot for constant update of online players , status and resource consumpt
 
 # SETUP:
 
-npm install multicraft (https://www.npmjs.com/package/multicraft) , discord.js (https://discord.js.org/) and round-to (https://www.npmjs.com/package/round-to).
+npm install multicraft (https://www.npmjs.com/package/multicraft) and discord.js (https://discord.js.org/).
 
 ```
 npm install discord.js
 npm install multicraft
-npm install round-to
 ```
 
-# IMPORTANT:
+# HOW TO USE CONFIG.JS:
 
-make sure to replace your node_modules\multicraft with node_modules\multicraft on this repo/zip that you downloaded as you can refer on this gif
-
-
-![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/replace.gif)
-
-# HOW TO USE CONFIG.JSON:
-
-Create a file called "config.json" within your project folder. It will have this syntax:
+Create a file called "config.js" within your project folder. It will have this syntax:
 
 ```
 {
